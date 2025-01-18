@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#miImagen {
+    width: 50%; /* O ajusta el tamaño que prefieras */
+    max-width: 250px;
+    
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.sticker {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    margin-top: 5px;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+select {
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-weight: bold;
+}
