@@ -5,9 +5,19 @@
 
 
 #miImagen {
-    width: 50%; /* O ajusta el tamaño que prefieras */
+    width: 400px; 
+    height: 400px;
     max-width: 250px;
     
+}
+
+#titulo1 {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 50px;
+
+
 }
 .imagen{
     display: flex;
@@ -22,6 +32,11 @@
     text-align: center;
 }
 
+#imSticker {
+    width: 350px;
+    height: 300px;
+}
+
 img {
     width: 100px;
     height: 100px;
@@ -32,14 +47,43 @@ input {
 }
 
 #mensaje {
-    margin-top: 20px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 18px;
     font-weight: bold;
 }
+ 
+#titulo2 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
+  
+}
 
+#selectores{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 30px;
+}
+
+#verificador {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 30px;
+}
+
+.contenedor{
+    border: solid 5px black;
+}
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
+    background-color: aquamarine;
 }
 
 select {

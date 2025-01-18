@@ -11,25 +11,30 @@
     <img id="miImagen" src="./assets/css/img/5c9271146013b62856f0c29fa8f15d22.jpg" alt="" onclick="toggleBorde()">
 </div>
 
+<div id="titulo1">
 <h1>Selecciona tus Stickers</h1>
+</div>
 
 <div class="sticker">
-    <img src="./assets/css/img/HD-wallpaper-chuck-and-snoopy-resting-cartoons-snoopy-charley-brown.jpg" alt="Sticker 1">
+    <img id="imSticker" src="./assets/css/img/HD-wallpaper-chuck-and-snoopy-resting-cartoons-snoopy-charley-brown.jpg" alt="Sticker 1">
     <input type="number" id="sticker1" min="0" max="10" value="0">
 </div>
 <div class="sticker">
-    <img src="./assets/css/img/image-55-1.webp" alt="Sticker 2">
+    <img  id="imSticker" src="./assets/css/img/image-55-1.webp" alt="Sticker 2">
     <input type="number" id="sticker2" min="0" max="10" value="0">
 </div>
 <div class="sticker">
-    <img src="./assets/css/img/images.jfif" alt="Sticker 3">
+    <img id="imSticker" src="./assets/css/img/images.jfif" alt="Sticker 3">
     <input type="number" id="sticker3" min="0" max="10" value="0">
 </div>
 
 <p id="mensaje"></p>
 
-<h1>Verificar Contraseña</h1>
 
+<div id="titulo2">
+<h1>Verificar Contraseña</h1>
+</div>
+<div id="selectores">
 <select id="select1">
     <option value="1">1</option>
     <option value="2">2</option>
@@ -65,10 +70,15 @@
     <option value="8">8</option>
     <option value="9">9</option>
 </select>
-<button onclick="verificarPassword()">Ingresar</button>
+</div>
+
+
+
+<div id="verificador">
+<button style="margin-left: 110px;" onclick="verificarPassword()">Ingresar</button>
 
     <p id="mensaje"></p>
-
+</div>
 
 <script src="./assets/js/index.js"></script>
 </body>

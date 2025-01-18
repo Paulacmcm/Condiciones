@@ -21,9 +21,9 @@ function actualizarCantidad() {
     const mensaje = document.getElementById('mensaje');
 
     if (total <= 10) {
-        mensaje.textContent = `Llevas ${total} stickers.`;
+        mensaje.textContent = `Llevas ${total} stickers`;
     } else {
-        mensaje.textContent = 'Llevas demasiados stickers.';
+        mensaje.textContent = 'Llevas demasiados stickers';
     }
 }
 
